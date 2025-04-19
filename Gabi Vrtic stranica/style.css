@@ -3,7 +3,7 @@ h2{color: rgb(209, 69, 92);}
 
 
 figure img{border: 4px solid black;}
-body{background-color: greenyellow;}
+
 .navigacija{
     list-style: none;
     padding: 0px;
@@ -21,4 +21,16 @@ body{background-color: greenyellow;}
 .footer{
     text-decoration: none;
     color:blueviolet
+}
+.naslov{
+    text-align: center;
+
+}
+
+.programi{
+    text-align: center;
+}
+
+.footer{
+    text-align: end;
 }
