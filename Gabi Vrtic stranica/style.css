@@ -2,7 +2,12 @@ h1{color:cadetblue;}
 h2{color: rgb(209, 69, 92);}
 
 
-figure img{border: 4px solid black;}
+body{
+   /*background-image: url(https://abcportal.info/wp-content/uploads/2025/03/livada-s-racunala.jpg) ;
+    */
+}
+
+
 
 .navigacija{
     list-style: none;
