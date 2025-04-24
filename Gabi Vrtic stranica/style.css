@@ -60,7 +60,7 @@ p{
     -webkit-text-stroke-color: rgb(4, 190, 44);
 }
 
-img{
-    border:solid;
+.slika{
+    border:1px solid;
     border-radius: 100px;
 }
