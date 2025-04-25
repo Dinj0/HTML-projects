@@ -3,8 +3,9 @@ h2{color: rgb(209, 69, 92);}
 
 
 body{
-   background-image: url(https://static.vecteezy.com/system/resources/previews/046/087/918/non_2x/a-breathtaking-scene-of-natures-beauty-where-colorful-flowerbeds-bloom-in-harmony-with-the-lush-green-lawns-of-a-tranquil-public-park-photo.jpg) ;
-    
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/046/087/918/non_2x/a-breathtaking-scene-of-natures-beauty-where-colorful-flowerbeds-bloom-in-harmony-with-the-lush-green-lawns-of-a-tranquil-public-park-photo.jpg) ;
+    */
+    background-color: rgb(23, 201, 23);
 }
 
 
@@ -18,15 +19,19 @@ body{
     justify-content: center;
 
 }
+
 .navigacija  {
     text-decoration: none;
     color:#000;
     font-weight: bold;
 }
+
 .footer{
     text-decoration: none;
     color:blueviolet
+    text-align:end;
 }
+
 .naslov{
     text-align: center;
     -webkit-text-stroke: 1px;
@@ -56,11 +61,15 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: rgb(0, 0, 0);
-    -webkit-text-stroke: 1px;
+    /*-webkit-text-stroke: 1px;*/
     -webkit-text-stroke-color: rgb(4, 190, 44);
+    background-color: gray;
+    opacity: 90%;
+
 }
 
 .slika{
+    width:600px;
     border:1px solid;
-    border-radius: 100px;
+    border-radius: 0 100px;
 }
