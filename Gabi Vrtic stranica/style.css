@@ -2,13 +2,25 @@ h1{color:cadetblue;}
 h2{color: rgb(209, 69, 92);}
 
 
-body{
-  /* background-image: url(https://static.vecteezy.com/system/resources/previews/046/087/918/non_2x/a-breathtaking-scene-of-natures-beauty-where-colorful-flowerbeds-bloom-in-harmony-with-the-lush-green-lawns-of-a-tranquil-public-park-photo.jpg) ;
-    */
-    background-color: rgb(23, 201, 23);
+body {
+    background: radial-gradient(circle at center, #fceabb 0%, 
+    #fbd165 40%, 
+    #f8b500 80%, 
+    #e39000 100%);
+    /* Alternativne boje koje možeš isprobati: #fceabb (svijetlo žuta), #f8b500 (topla narančasta) */
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+header{
+    background-color: rgb(16, 167, 255);
+    padding:30px;
+    font-size: 20px;
+    margin:-10px;
+    opacity: 80%;
+    
+
 }
-
-
 
 .navigacija{
     list-style: none;
@@ -28,8 +40,13 @@ body{
 
 .footer{
     text-decoration: none;
-    color:blueviolet
-    text-align:end;
+    color:blueviolet;  
+    text-align: end;
+    background-color: brown;
+    color:pink;
+    padding-left:30px;
+    padding-bottom: 100px;
+    margin:0 -100 -100% -100% ;
 }
 
 .naslov{
@@ -43,19 +60,8 @@ body{
     text-align: center;
 }
 
-header{
-    background-color: greenyellow;
-    padding:30px;
-    font-size: 20px;
-    margin:-10px;
-    opacity: 80%;
-    
 
-}
 
-.footer{
-    text-align: end;
-}
 
 p{
     font-family: Arial, Helvetica, sans-serif;
